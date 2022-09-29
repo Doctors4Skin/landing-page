@@ -912,7 +912,7 @@ color: #444444;
   overflow      : hidden;
   box-shadow    : var(--box-shadow);
   margin: auto;
-  min-height: 570px;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -947,7 +947,7 @@ color: #444444;
 }
 
 .card-image img{
-  width: 100%;
+  max-width: 100%;
 }
 
 .projects-section h1{
@@ -1022,7 +1022,13 @@ color: #444444;
 
 }
 .container-yt{
-  margin-left: 400px;
+ border-radius : var(--border-radius);
+  overflow      : hidden;
+  box-shadow    : var(--box-shadow);
+  margin: auto;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /*  ----- CONTACTO -----  */
